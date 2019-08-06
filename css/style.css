@@ -1,0 +1,210 @@
+body{
+	font-family: 'Open-sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	line-height: 1.5;
+}
+
+
+/* Global */
+
+.primary-background{
+background-color: : #00CDED;
+}
+
+.secondary-background{
+	background-color: #43D1B8;
+}
+
+.alternative-background{
+	background-color: #8BC53E;
+}
+
+.primary-text{
+color: : #00CDED;
+}
+
+.secondary-color{
+	color: #43D1B8;
+}
+
+.alternative-color{
+	color: #8BC53E;
+}
+
+.container{
+	margin: auto;
+}
+.fas{
+	color: black;
+
+}
+
+img{
+	width: 100%;
+}
+
+li{
+	list-style: none;
+}
+
+/* header    */
+#main-header{
+	border-bottom: 1px solid #43D1BB;
+	text-align: center;
+	background-color: #00CDED;
+
+}
+
+
+
+span.fas.fa-cloud{
+	color: #fff;
+}
+
+/* branding  */
+
+
+/* NAVBAR   */
+nav li{
+	text-transform: uppercase;
+	list-style: none;
+	display: inline;
+	padding: 0 0 0 20px;
+}
+
+
+nav a{
+	text-decoration: none;
+	color: #fff;
+}
+
+li.current a, #navbar a:hover{
+	color: blue;
+	border-bottom: 3px solid blue;
+	padding-bottom: 3px;
+}
+
+
+/*  WELCOME */
+#welcome{
+
+	box-shadow: 0px 10px 20px -5px rgba(0,0,0,.1); 
+	background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,0.3), transparent),url('../images/welcome.jpg') no-repeat center center;
+	background-size: cover;
+	min-height: 500px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #43D1B8;
+}
+
+#welcome h1{
+	margin: 0;
+	font-size: 50px;
+	padding-top: 100px;
+	color: #fff;
+}
+
+#welcome p{
+	color: #fff;
+	margin: 0;
+}
+
+.content{
+	padding: 75px;
+
+
+	text-shadow: 0px 0px 20px #000000
+
+
+
+}
+
+/*  features */
+
+#features h2{
+	font-size: 35px;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+#features p{
+	color: #888;
+	margin: 0;
+	margin-bottom: 40px;
+	padding: 10px;
+}
+
+#features .fas{
+	color: #00CDED;
+	font-size: 70px;
+}
+
+#info img{ 
+
+height: 90%;
+width: 90%;
+border-radius: 100%;
+margin-top: 20px;
+ }
+
+
+#info{
+	background: linear-gradient(rgba(0,205,237,.7), rgba(0,205,237,0.5), transparent), url('../images/info-bg.jpg') no-repeat;
+	color: #fff;
+	background-size: cover;
+}
+
+#info h2{
+	font-size: 35px;
+	margin: 0;
+	padding-bottom: 10px;
+	padding-top: 60px;
+}
+
+
+#info ul{
+	list-style: none;
+	padding: 0;
+
+}
+
+#info li{
+	line-height: 2em;
+	font-size: 20px;S
+}
+#contact{
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+#contact h4{
+	text-transform: uppercase;
+	margin-bottom: 0;
+
+}
+
+
+
+#contact ul{
+	padding: 0;
+	list-style: none;
+	line-height: 2em;
+}
+
+#contact input[type="text"]{
+	padding: 7px;
+
+}
+
+#contact button{
+	background-color: #222;
+	color: #fff;
+	padding: 10px;
+	border: 0;
+}
+
+footer{
+	background-color: #00CDED;
+}
