@@ -1,9 +1,16 @@
+html{
+	height: 100%;
+}
+
 body{
 	font-family: 'Open-sans', sans-serif;
 	margin: 0;
 	padding: 0;
 	font-size: 17px;
 	line-height: 1.5;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
 }
 
 
@@ -22,7 +29,7 @@ background-color: : #00CDED;
 }
 
 .primary-text{
-color: : #00CDED;
+color: #00CDED;
 }
 
 .secondary-color{
@@ -91,7 +98,7 @@ li.current a, #navbar a:hover{
 #welcome{
 
 	box-shadow: 0px 10px 20px -5px rgba(0,0,0,.1); 
-	background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,0.3), transparent),url('../images/welcome.jpg') no-repeat center center;
+	background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,0.1), transparent),url('../images/welcome.jpg') no-repeat center center;
 	background-size: cover;
 	min-height: 500px;
 	margin-bottom: 30px;
@@ -108,6 +115,7 @@ li.current a, #navbar a:hover{
 #welcome p{
 	color: #fff;
 	margin: 0;
+	font-weight: 600;
 }
 
 .content{
@@ -140,6 +148,8 @@ li.current a, #navbar a:hover{
 	font-size: 70px;
 }
 
+/*  */
+
 #info img{ 
 
 height: 90%;
@@ -150,7 +160,7 @@ margin-top: 20px;
 
 
 #info{
-	background: linear-gradient(rgba(0,205,237,.7), rgba(0,205,237,0.5), transparent), url('../images/info-bg.jpg') no-repeat;
+	background: linear-gradient(rgba(0,205,237,.5), rgba(0,205,237,0.5), transparent), url('../images/info-bg.jpg') no-repeat;
 	color: #fff;
 	background-size: cover;
 }
@@ -177,6 +187,7 @@ margin-top: 20px;
 	background-color: #333;
 	color: #fff;
 	padding: 10px;
+	margin-top: auto;
 }
 
 #contact h4{
@@ -204,7 +215,62 @@ margin-top: 20px;
 	padding: 10px;
 	border: 0;
 }
+#page{
+	margin-bottom: 50px;
+	text-align: center;
+}
 
+#page h1{
+	text-align: center;
+}
+
+
+.services ul li{
+	list-style: none;
+	padding: 10px;
+
+}
+
+.services ul li:nth-child(odd){
+	background-color:  #333;
+	color: #fff;
+
+}
+.services ul li:nth-child(even){
+	background-color:  #00CDED;
+	color: #fff;
+
+}
+
+.contact form{
+	background-color: #00CDED;
+	color: white;
+	padding: 20px;
+}
+
+.contact form input[type="text"]{
+	width: 50%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.contact form textarea{
+	width: 50%;
+	height: 100px;
+}
+
+.contact form button{
+	width: 50%;
+	padding: 10px 0;
+	border: 0;
+	background-color: #222;
+	color: white;
+}
+
+.contact form label{
+	text-transform: uppercase;
+}
 footer{
 	background-color: #00CDED;
+
 }
